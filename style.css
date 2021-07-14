@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(243 249 253 / 66%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.page {
+    background-color: #FFF;
+    margin: 0 auto;
+    width: 50vw;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+div.contact-section {
+    background-color:#d2d1d15c;
+    min-height: 100%;
+    bottom: 0;
+    color: black;
+}
+
+.col-3 {
+    width: 35%;
+}
+
+div.content {
+    padding: 80px 15px 100px 40px;
+ 
+}
+
+div.content h3{
+    font-weight: 400;
+   
+    
+}
+
+div.content h2{
+    font-weight: 300;
+}
+
+div.content a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10%;
+  
+}
+
+div.content p{
+    word-wrap: break-word;
+}
+
+div.content ul{
+    list-style-type: none;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+
+div.content ul li::before{
+    content: "✔ ";
+}
+
+.text-grey {
+    color: #666;
+}
+
+.logo{
+    
+    position: absolute;
+    left: 30%;
+    height: 16%;
+    top: 3%;
+    border-radius: 50%; 
+}
+.nombre{
+    padding-top: 34%;
+    color: indianred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 15px;
+}
+.apellido{
+    color: darkslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 15px;
+}
+.descripcion{
+    font-family: cursive;
+    padding-top: 15%;
+}
+.contacto{
+    color: indianred;
+    padding-left: 41px;
+}
+.logoWhat{
+    padding-left: 37%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.tittle-experiencia{
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+.imgExperiencia{
+position: absolute;
+left: 44%;
+}
+.color{
+    color:indianred;
+}
+.tittle-estudios{
+    padding-left: 17%;
+    padding-bottom: 5%;
+    
+}
+.imgEstudios{
+    position: absolute;
+    left: 45%;
+    top: 124%;
+    }
+
+    
+.tittle-certificaciones{
+        padding-left: 17%;
+        padding-bottom: 5%;
+        
+  }
+.imgCertificaciones{
+        position: absolute;
+       left: 45%;
+        top: 173%;
+   }
+    
+        
